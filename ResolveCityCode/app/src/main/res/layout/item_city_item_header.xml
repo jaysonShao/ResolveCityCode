@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tvName"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="30px"
+    android:background="@drawable/city_item_header_item_bg"
+    android:ellipsize="end"
+    android:gravity="center"
+    android:maxEms="5"
+    android:minWidth="70dp"
+    android:singleLine="true"
+    android:textColor="#000000"
+    android:textSize="12sp"
+    tools:text="上海背景" />

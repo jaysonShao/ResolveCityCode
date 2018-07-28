@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_4A4A4A">#4A4A4A</color>
+    <color name="color_031D32">#031D32</color>
+    <color name="color_F7F7F7">#F7F7F7</color>
+    <color name="color_232427">#232427</color>
+    <color name="color_00A7D3">#00A7D3</color>
+    <color name="color_299BCE">#299bce</color>
+    <color name="color_C8c7cc">#C8c7cc</color>
+    <color name="color_9B9B9B">#9B9B9B</color>
+    <color name="color_8F8E94">#8F8E94</color>
+    <color name="color_03EBEB">#03EBEB</color>
+    <color name="color_EFEFF4">#EFEFF4</color>
+    <color name="color_1B1B1D">#1B1B1D</color>
+    <color name="color_1B1C1F">#1B1C1F</color>
+    <color name="color_191919">#191919</color>
+    <color name="color_F1F1F1">#F1F1F1</color>
+    <color name="color_E8E8E8">#E8E8E8</color>
+    <color name="color_C7C7CD">#C7C7CD</color>
+    <color name="color_bg">#EFEFF4</color>
+    <color name="color_030303">#030303</color>
+    <color name="color_4D4D4D">#4D4D4D</color>
+    <color name="color_0076FF">#0076FF</color>
+    <color name="color_FE2851">#FE2851</color>
+    <color name="color_DBDBE1">#DBDBE1</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_888888">#888888</color>
+    <color name="color_8C8C8C">#8C8C8C</color>
+    <color name="color_EE4B62">#EE4B62</color>
+    <color name="color_CCCCCC">#CCCCCC</color>
+    <color name="color_1E1E1E">#1E1E1E</color>
+    <color name="color_4D92DF">#4d92df</color>
+    <color name="color_39000000">#39000000</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white80">#80FFFFFF</color>
+    <color name="black">#191919</color>
+    <color name="blue">#1B75BB</color>
+    <color name="red">#FE2851</color>
+    <color name="blue_color">#00A7D3</color>
+    <color name="transparent">#00000000</color>
+    <color name="gray_dark">#9B9B9B</color>
+    <color name="gray_light">#EFEFF4</color>
+
+
+    //以后要删除
+    <color name="gray7">#c5c4c4</color>
+    <color name="color_country">#232427</color>
+    <color name="color_red_f04c62">#f04c62</color>
+</resources>

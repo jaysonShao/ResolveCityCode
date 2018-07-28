@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/search_title"
+        layout="@layout/layout_city_search_" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TableLayout
+            android:id="@+id/city_search_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/city_search_tab">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/city_search_vp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <FrameLayout
+                android:id="@+id/cover"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#66000000"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/search_expand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:visibility="gone">
+
+            <ListView
+                android:id="@+id/search_lv"
+                android:dividerHeight="0.5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#EFEFF4" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/search_second_expand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:visibility="gone">
+
+            <ListView
+                android:id="@+id/search_second_lv"
+                android:dividerHeight="0.5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#EFEFF4" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>
